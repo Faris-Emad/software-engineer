@@ -1,0 +1,77 @@
+/* إعدادات عامة */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* الحاوية الرئيسية */
+  .container {
+    text-align: center;
+  }
+  
+  /* الصورة الشخصية */
+  .avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* العناوين */
+  h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 10px 0;
+  }
+  
+  /* الروابط الاجتماعية */
+  .fa-brands {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .fa-brands a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* النص */
+  p {
+    font-size: 1rem;
+    margin: 15px 0;
+    line-height: 1.5;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* زر السيرة الذاتية */
+  .resume-button {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-button:hover {
+    background-color: #f1f1f1;
+  }
+  
